@@ -9,7 +9,6 @@ public class Main {
 
         Doctor doctor=context.getBean(Doctor.class);
         doctor.work();
-        System.out.println(doctor.getQualification());
 
         Staff nurse=(Nurse) context.getBean("nurse");
         nurse.work();
